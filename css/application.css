@@ -16,13 +16,16 @@ font-family: 'Bitter', serif;
 
 h1, h2, h3, h4, h5, h6 {
     /* TODO make the font color of all our headers #fffdf0 */
+    color: #fffdf0;
 }
 
 /* ---------------------------------------------- */
 /* Header --------------------------------------- */
 /* ---------------------------------------------- */
 
-header {}
+header {
+
+}
 
 header h1 {
     /* TODO make the font size larger than Foundation's default; I uesd 4.5em */
