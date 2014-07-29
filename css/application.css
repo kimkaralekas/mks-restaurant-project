@@ -5,6 +5,7 @@
 body {
     margin: 0;
     /* TODO use the Google Font 'Bitter' */
+    font-family: 'Bitter', serif;
     font-size: 100%;
 }
 
