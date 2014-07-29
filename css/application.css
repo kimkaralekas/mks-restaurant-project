@@ -31,6 +31,7 @@ header h1 {
     /* TODO make the font size larger than Foundation's default; I uesd 4.5em */
     font-size: 4.5em;
     /* TODO add a text-shadow on the h1 using rgba(34, 28, 18,.75) */
+    
 }
 
 header .tagline h4 {
