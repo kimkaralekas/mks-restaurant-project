@@ -17,10 +17,10 @@
         effect: "slide"
       },
       play: {
-        active: false,
+        active: true,
         effect: "slide",
         interval: 5000,
-        auto: false,
+        auto: true,
         swap: true,
         pauseOnHover: false,
         restartDelay: 2500
