@@ -1,119 +1,115 @@
 <!DOCTYPE html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Chavez | Restaurant by Shawn Cirkiel | at the Radisson, Austin, TX</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Google Fonts -->
-        <!-- TODO We're going to use the Google Font 'Bitter'. https://www.google.com/fonts#UsePlace:use/Collection:Bitter Link to it here -->
-        <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Chavez | Restaurant by Shawn Cirkiel | at the Radisson, Austin, TX</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Foundation CSS -->
-        <!-- TODO link to foundation's normalize.css -->
-         <link rel="stylesheet" href="css/normalize.css">
-        <!-- TODO link to foundation's foundation.min.css -->
-        <link rel="stylesheet" href="css/foundation.css">
+    <!-- Google Fonts -->
+    <!-- TODO We're going to use the Google Font 'Bitter'. https://www.google.com/fonts#UsePlace:use/Collection:Bitter Link to it here -->
+    <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
 
-        <!-- If you are using Foundation Sass, keep the head from their file. -->
+    <!-- Foundation CSS -->
+    <!-- TODO link to foundation's normalize.css -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- TODO link to foundation's foundation.min.css -->
+    <link rel="stylesheet" href="css/foundation.css">
 
-        <!-- Our CSS -->
-        <link rel="stylesheet" href="css/application.css">
+    <!-- If you are using Foundation Sass, keep the head from their file. -->
 
-        <!-- Slides.js CSS -->
-        <link rel="stylesheet" href="css/slides.css">
+    <!-- Our CSS -->
+    <link rel="stylesheet" href="css/application.css">
 
-
-  <style>
-    /* Prevents slides from flashing */
-    #slides {
-      display:none;
-    }
-  </style>
-
-  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-  <script src="jquery.slides.min.js"></script>
-
-  <script>
-    $(function(){
-      $("#slides").slidesjs({
-        width: 940,
-        height: 528
-      });
-    });
-  </script>
+    <!-- Slides.js CSS -->
+    <link rel="stylesheet" href="css/slides.css">
 
 
+    <style>
+        /* Prevents slides from flashing */
+        #slides {
+            display: none;
+        }
+    </style>
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="jquery.slides.min.js"></script>
+
+    <script>
+        $(function() {
+            $("#slides").slidesjs({
+                width: 940,
+                height: 528
+            });
+        });
+    </script>
 
 
-    </head>
-    <body>
+
+
+</head>
+
+<body>
 
     <!-- TODO there are ten images in the images folder. write image tags for each of them. then wrap the images in a #slides div so that Slides JS knows how to find them -->
 
-        <div id="slides">
-            <img src="images/chavez-1.jpg" alt="">
-            <img src="images/chavez-2.jpg" alt="">
-            <img src="images/chavez-3.jpg" alt="">
-            <img src="images/chavez-4.jpg" alt="">
-            <img src="images/chavez-5.jpg" alt="">
-            <img src="images/chavez-6.jpg" alt="">
-            <img src="images/chavez-7.jpg" alt="">
-            <img src="images/chavez-8.jpg" alt="">
-            <img src="images/chavez-9.jpg" alt="">
-            <img src="images/chavez-10.jpg" alt="">
+    <div id="slides">
+        <img src="images/chavez-1.jpg" alt="">
+        <img src="images/chavez-2.jpg" alt="">
+        <img src="images/chavez-3.jpg" alt="">
+        <img src="images/chavez-4.jpg" alt="">
+        <img src="images/chavez-5.jpg" alt="">
+        <img src="images/chavez-6.jpg" alt="">
+        <img src="images/chavez-7.jpg" alt="">
+        <img src="images/chavez-8.jpg" alt="">
+        <img src="images/chavez-9.jpg" alt="">
+        <img src="images/chavez-10.jpg" alt="">
+    </div>
+
+
+
+    <!-- Address, map, hours -->
+    <section class="address">
+        <!-- TODO add a foundation row wrapping this content. do you know why you would add it here as a div, instead of as a class on the section.address? What would happen if you did that? -->
+
+        <!-- TODO for each of these 3 divs (location, map, hours), add foundation column classes so that they sit side by side at large screen sizes, and stack on top of each other at a small screen size -->
+        <div class="location">
+            <!-- TODO link to the hotel website and make the telephone a tel: link, and style this content -->
+            at the Radisson Hotel 111 east cesar chavez austin, texas 78701 512.478.2291
         </div>
-        
+
+        <div class="map">
+            <!-- TODO there is a map image in the images folder, link to it and make the link to go this google map: goo.gl/maps/qgnVW -->
+        </div>
+
+        <div class="hours">
+            <!-- TODO style this content. use the classes .hours-label and .hours-value to determine which part is which and style it -->
+            breakfast: 6:30–11am lunch: 11am–3pm limited menu: 3–5pm dinner: 5–10pm
+        </div>
+
+    </section>
+
+    <!-- Menu -->
+    <section class="menu">
+        <div class="row">
+            <h2>Menus</h2>
+        </div>
 
 
-        <!-- Address, map, hours -->
-        <section class="address">
-            <!-- TODO add a foundation row wrapping this content. do you know why you would add it here as a div, instead of as a class on the section.address? What would happen if you did that? -->
+        <!-- Slide/Header Image -->
+        <header>
 
-                <!-- TODO for each of these 3 divs (location, map, hours), add foundation column classes so that they sit side by side at large screen sizes, and stack on top of each other at a small screen size -->
-                <div class="location">
-                    <!-- TODO link to the hotel website and make the telephone a tel: link, and style this content -->
-                    at the Radisson Hotel
-                    111 east cesar chavez
-                    austin, texas 78701
-                    512.478.2291
-                </div>
-
-                <div class="map">
-                    <!-- TODO there is a map image in the images folder, link to it and make the link to go this google map: goo.gl/maps/qgnVW -->
-                </div>
-
-                <div class="hours">
-                    <!-- TODO style this content. use the classes .hours-label and .hours-value to determine which part is which and style it -->
-                    breakfast: 6:30–11am
-                    lunch: 11am–3pm
-                    limited menu: 3–5pm
-                    dinner: 5–10pm
-                </div>
-
-        </section>
-
-        <!-- Menu -->
-        <section class="menu">
-            <div class="row">
-                <h2>Menus</h2>
+            <!-- Tagline inside Slideshow -->
+            <div class="tagline">
+                <!-- Chavez name/logo -->
+                <h1>Chavez</h1>
+                <h4>the new restaurant by shawn cirkiel<br />poolside at the radisson</h4>
             </div>
 
 
-    <!-- Slide/Header Image -->
-    <header>
 
-        <!-- Tagline inside Slideshow -->
-        <div class="tagline">
-            <!-- Chavez name/logo -->
-            <h1>Chavez</h1>
-            <h4>the new restaurant by shawn cirkiel<br />poolside at the radisson</h4>
-        </div>
-
-
-
-    <!-- TODO write the following HTML for each of the menus.
+            <!-- TODO write the following HTML for each of the menus.
 
     There will be 6 .menu-section divs: breakfast, lunch, dinner, dessert, cocktails, and wine. Give them an ID `menu-action-` for each section, e.g. #menu-action-breakfast
 
@@ -126,62 +122,62 @@
     -->
 
 
-    <div class="row">
-        <div id="menu-action-breakfast">
-        <div class="small-2 columns">
-        <p>Breakfast</p>
-        </div>
-        </div>
+            <div class="row">
+                <div id="menu-action-breakfast">
+                    <div class="small-2 columns">
+                        <p>Breakfast</p>
+                    </div>
+                </div>
 
-        <div class="small-2 columns">
-        <div id="menu-action-lunch">            
-        <p>Lunch</p>            
-        </p>
-        </div>
-        </div>
+                <div class="small-2 columns">
+                    <div id="menu-action-lunch">
+                        <p>Lunch</p>
+                        </p>
+                    </div>
+                </div>
 
-        <div class="small-2 columns">
-        <div id="menu-action-dinner">            
-        <p>Dinner</p>            
-        </p>
-        </div>
-        </div>
+                <div class="small-2 columns">
+                    <div id="menu-action-dinner">
+                        <p>Dinner</p>
+                        </p>
+                    </div>
+                </div>
 
-        <div class="small-2 columns">
-        <div id="menu-action-dessert">            
-        <p>Dessert</p>            
-        </p>
-        </div>
-        </div>
+                <div class="small-2 columns">
+                    <div id="menu-action-dessert">
+                        <p>Dessert</p>
+                        </p>
+                    </div>
+                </div>
 
-        <div class="small-2 columns">
-        <div id="menu-action-cocktails">
-        <p>Cocktails</p>            
-        </p>
-        </div>
-        </div>
+                <div class="small-2 columns">
+                    <div id="menu-action-cocktails">
+                        <p>Cocktails</p>
+                        </p>
+                    </div>
+                </div>
 
-        <div class="small-2 columns">
-        <div id="menu-action-wine">
-        <p>Wine</p>            
-        </p>
-        </div>
-        </div>
+                <div class="small-2 columns">
+                    <div id="menu-action-wine">
+                        <p>Wine</p>
+                        </p>
+                    </div>
+                </div>
 
 
-        <div class="row">
-        <div id="menu-action-raw-bar">
-        <div class="small-12 medium-6 columns">
-        <p>Raw Bar</p>
-        </div> 
-        </div>
+                <div class="row">
+                    <div id="menu-action-raw-bar">
+                        <div class="small-12 medium-6 columns">
+                            <p>Raw Bar</p>
+                        </div>
+                    </div>
 
-        <div class="small-12 medium-6 columns">
-        <div id="menu-action-entrees">
-        <p>Entrees</p>
-        </div>
-        </div>
-    </div>
+                    <div class="small-12 medium-6 columns">
+                        <div id="menu-action-entrees">
+                            <p>Entrees</p>
+                        </div>
+                    </div>
+                </div>
 
 
 
@@ -195,74 +191,75 @@
                     </h3>
                 </div>
 
-            <!-- TODO add a foundation row to wrap around this content -->
+                <!-- TODO add a foundation row to wrap around this content -->
                 <div id="menu-section-content" class="menu-section-content menu-dinner is-active">
                     <!-- TODO we'll add the dinner menu content here. Write two columns with the class .menu-group and the foundation column classes. -->
 
-                        <div class="menu-group">
-                            <!-- TODO Inside each .menu-group, there should be an h4 with the title. -->
-                            <h4></h4>
+                    <div class="menu-group">
+                        <!-- TODO Inside each .menu-group, there should be an h4 with the title. -->
+                        <h4></h4>
 
-                            <!-- TODO for each item on the menu, write a div.menu-item. -->
+                        <!-- TODO for each item on the menu, write a div.menu-item. -->
 
-                                <!-- TODO inside each div.menu-item, there should be a div.menu-item-name, a p.menu-item-description, and a div.menu-item-price. -->
+                        <!-- TODO inside each div.menu-item, there should be a div.menu-item-name, a p.menu-item-description, and a div.menu-item-price. -->
 
-                                <!-- TODO we are going to do ONLY the "Raw Bar" and "Entrees" section of the dinner menu for now. You can find that content in /menu-content/menu-dinner.md We'll add the rest of the menus with JSON later. -->
-                        </div>
+                        <!-- TODO we are going to do ONLY the "Raw Bar" and "Entrees" section of the dinner menu for now. You can find that content in /menu-content/menu-dinner.md We'll add the rest of the menus with JSON later. -->
+                    </div>
                 </div>
 
-        </section>
+    </section>
 
-        <!-- Social media -->
-        <section class="contact">
+    <!-- Social media -->
+    <section class="contact">
 
-            <!-- TODO add a foundation row wrapping this content. do you know why you would add it here as a div, instead of as a class on the section.address? -->
+        <!-- TODO add a foundation row wrapping this content. do you know why you would add it here as a div, instead of as a class on the section.address? -->
 
-                <!-- TODO for each of these 3 divs, add foundation columns so that they sit side by side. make them stack at small screen sizes. -->
+        <!-- TODO for each of these 3 divs, add foundation columns so that they sit side by side. make them stack at small screen sizes. -->
 
-                <div class="email">
-                    <h5>Email</h5>
-                    <!-- TODO make this an email link -->
-                    info@chavez-austin.com
-                </div>
+        <div class="email">
+            <h5>Email</h5>
+            <!-- TODO make this an email link -->
+            info@chavez-austin.com
+        </div>
 
-                <div class="social">
-                    <h5>Social Media</h5>
-                    <!-- TODO write a div.social-links. -->
-                        <!-- TODO inside that div, write a link that links to the social media links, and use the social media images in the image folder. -->
-                            <!-- TODO Facebook http://facebook.com/ChavezATX -->
-                            <!-- TODO Twitter http://twitter.com/ChavezATX -->
-                            <!-- TODO Instagram http://instagram.com/ChavezATX -->
-                </div>
+        <div class="social">
+            <h5>Social Media</h5>
+            <!-- TODO write a div.social-links. -->
+            <!-- TODO inside that div, write a link that links to the social media links, and use the social media images in the image folder. -->
+            <!-- TODO Facebook http://facebook.com/ChavezATX -->
+            <!-- TODO Twitter http://twitter.com/ChavezATX -->
+            <!-- TODO Instagram http://instagram.com/ChavezATX -->
+        </div>
 
-                <div class="press columns small-4">
-                    <h5>Press Inquiries</h5>
-                    <!-- TODO make this an email link -->
-                    press@chavezrestaurant.com
-                </div>
+        <div class="press columns small-4">
+            <h5>Press Inquiries</h5>
+            <!-- TODO make this an email link -->
+            press@chavezrestaurant.com
+        </div>
 
-            </div>
+        </div>
 
-        </section>
-
-
-        <!-- JavaScripts -->
-
-        <!-- jQuery -->
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-
-        <!-- Foundation JS -->
-        <script src="/js/foundation.min.js"></script>
-        <script>
-            $(document).foundation();
-        </script>
-
-        <!-- Slides.js -->
-        <!-- TODO link to the slides.min.js file -->
-<script type="text/Javascript" src="js/jquery.slides.min.js"></script>
-
-        <!-- TODO write the .slidesjs() code to make the slideshow work -->
+    </section>
 
 
-    </body>
+    <!-- JavaScripts -->
+
+    <!-- jQuery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+    <!-- Foundation JS -->
+    <script src="/js/foundation.min.js"></script>
+    <script>
+        $(document).foundation();
+    </script>
+
+    <!-- Slides.js -->
+    <!-- TODO link to the slides.min.js file -->
+    <script type="text/Javascript" src="js/jquery.slides.min.js"></script>
+
+    <!-- TODO write the .slidesjs() code to make the slideshow work -->
+
+
+</body>
+
 </html>
