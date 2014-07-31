@@ -74,7 +74,9 @@ section {
     /* TODO give these two divs some padding so that they line up with the map */
 }
 
-.hours-label { /* TODO style these with the appropriate font styles (bold/italic) */ }
+.hours-label { /* TODO style these with the appropriate font styles (bold/italic) */ 
+    font-style: italic;
+}
 .hours-value { /* TODO style these with the appropriate font styles (bold/italic) */ }
 
 

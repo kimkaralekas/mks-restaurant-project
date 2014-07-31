@@ -54,18 +54,31 @@
 
     <!-- TODO there are ten images in the images folder. write image tags for each of them. then wrap the images in a #slides div so that Slides JS knows how to find them -->
 
-    <div id="slides">
-        <img src="images/chavez-1.jpg" alt="">
-        <img src="images/chavez-2.jpg" alt="">
-        <img src="images/chavez-3.jpg" alt="">
-        <img src="images/chavez-4.jpg" alt="">
-        <img src="images/chavez-5.jpg" alt="">
-        <img src="images/chavez-6.jpg" alt="">
-        <img src="images/chavez-7.jpg" alt="">
-        <img src="images/chavez-8.jpg" alt="">
-        <img src="images/chavez-9.jpg" alt="">
-        <img src="images/chavez-10.jpg" alt="">
-    </div>
+
+    <!-- Slide/Header Image -->
+    <header>
+
+        <!-- Tagline inside Slideshow -->
+        <div class="tagline">
+            <!-- Chavez name/logo -->
+            <h1>Chavez</h1>
+            <h4>the new restaurant by shawn cirkiel<br />poolside at the radisson</h4>
+        </div>
+
+        <div id="slides">
+            <img src="images/chavez-1.jpg" alt="">
+            <img src="images/chavez-2.jpg" alt="">
+            <img src="images/chavez-3.jpg" alt="">
+            <img src="images/chavez-4.jpg" alt="">
+            <img src="images/chavez-5.jpg" alt="">
+            <img src="images/chavez-6.jpg" alt="">
+            <img src="images/chavez-7.jpg" alt="">
+            <img src="images/chavez-8.jpg" alt="">
+            <img src="images/chavez-9.jpg" alt="">
+            <img src="images/chavez-10.jpg" alt="">
+        </div>
+
+    </header>
 
 
 
@@ -86,15 +99,25 @@
             <a href="tel:5124782291">512.478.2291</a>
             </div>
 
-        <div class="map">
+
             <!-- TODO there is a map image in the images folder, link to it and make the link to go this google map: goo.gl/maps/qgnVW -->
+        <div class="map">
             <a href="http://www.goo.gl/maps/qgnVW"><img src="images/map.png" alt=""></a>  
         </div>
 
         <div class="hours">
             <!-- TODO style this content. use the classes .hours-label and .hours-value to determine which part is which and style it -->
-            breakfast: 6:30–11am lunch: 11am–3pm limited menu: 3–5pm dinner: 5–10pm
+            breakfast: <span class="hours-label">6:30–11am</span>
+            <br>
+            lunch: <span class="hours-label">11am–3pm</span>
+            <br> 
+            limited menu: <span class="hours-label">3–5pm</span>
+            <br> 
+            dinner: <span class="hours-label">5–10pm</span> 
         </div>
+
+
+
 
     </section>
 
@@ -104,16 +127,6 @@
             <h2>Menus</h2>
         </div>
 
-
-        <!-- Slide/Header Image -->
-        <header>
-
-            <!-- Tagline inside Slideshow -->
-            <div class="tagline">
-                <!-- Chavez name/logo -->
-                <h1>Chavez</h1>
-                <h4>the new restaurant by shawn cirkiel<br />poolside at the radisson</h4>
-            </div>
 
 
 
