@@ -84,39 +84,40 @@
 
     <!-- Address, map, hours -->
     <section class="address">
-        <!-- TODO add a foundation row wrapping this content. do you know why you would add it here as a div, instead of as a class on the section.address? What would happen if you did that? -->
+        <div class="row">
 
-        <!-- TODO for each of these 3 divs (location, map, hours), add foundation column classes so that they sit side by side at large screen sizes, and stack on top of each other at a small screen size -->
-        <div class="location small-4 columns">
-            <!-- TODO link to the hotel website and make the telephone a tel: link, and style this content -->
+            <!-- TODO add a foundation row wrapping this content. do you know why you would add it here as a div, instead of as a class on the section.address? What would happen if you did that? -->
 
-            <div>
-            at the <a href="http://www.radisson.com/austin-hotel-tx-78701/txaustdt" target="_blank">Radisson Hotel</a>
+            <!-- TODO for each of these 3 divs (location, map, hours), add foundation column classes so that they sit side by side at large screen sizes, and stack on top of each other at a small screen size -->
+            <div class="location small-4 columns">
+                <!-- TODO link to the hotel website and make the telephone a tel: link, and style this content -->
+
+                <div>
+                at the <a href="http://www.radisson.com/austin-hotel-tx-78701/txaustdt" target="_blank">Radisson Hotel</a>
+                </div>
+                <br>
+                <div>
+                111 east cesar chavez austin, texas 78701
+                <a href="tel:5124782291">512.478.2291</a>
+                </div>
             </div>
 
-            <div>
-            111 east cesar chavez austin, texas 78701
-            <a href="tel:5124782291">512.478.2291</a>
+                <!-- TODO there is a map image in the images folder, link to it and make the link to go this google map: goo.gl/maps/qgnVW -->
+            <div class="map small-4 columns">
+                <a href="http://www.goo.gl/maps/qgnVW"><img src="images/map.png" alt=""></a>  
             </div>
 
-
-            <!-- TODO there is a map image in the images folder, link to it and make the link to go this google map: goo.gl/maps/qgnVW -->
-        <div class="map">
-            <a href="http://www.goo.gl/maps/qgnVW"><img src="images/map.png" alt=""></a>  
+            <div class="hours small-4 columns">
+                <!-- TODO style this content. use the classes .hours-label and .hours-value to determine which part is which and style it -->
+                breakfast: <span class="hours-label">6:30–11am</span>
+                <br>
+                lunch: <span class="hours-label">11am–3pm</span>
+                <br> 
+                limited menu: <span class="hours-label">3–5pm</span>
+                <br> 
+                dinner: <span class="hours-label">5–10pm</span> 
+            </div>
         </div>
-
-        <div class="hours">
-            <!-- TODO style this content. use the classes .hours-label and .hours-value to determine which part is which and style it -->
-            breakfast: <span class="hours-label">6:30–11am</span>
-            <br>
-            lunch: <span class="hours-label">11am–3pm</span>
-            <br> 
-            limited menu: <span class="hours-label">3–5pm</span>
-            <br> 
-            dinner: <span class="hours-label">5–10pm</span> 
-        </div>
-
-
 
 
     </section>
