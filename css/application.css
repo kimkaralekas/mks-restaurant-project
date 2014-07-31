@@ -67,6 +67,9 @@ section {
 
 .address {
     /* TODO give this section a background of #221c12 and a color of #fffdf0. make the text centered */
+    background-color: #221c12;
+    color: #fffdf0;
+    text-align: center;
 }
 
 .location,
@@ -76,8 +79,12 @@ section {
 
 .hours-label { /* TODO style these with the appropriate font styles (bold/italic) */ 
     font-style: italic;
+    font-weight: bold;
 }
-.hours-value { /* TODO style these with the appropriate font styles (bold/italic) */ }
+.hours-value { /* TODO style these with the appropriate font styles (bold/italic) */ 
+    font-style: italic;
+    font-weight: bold;
+}
 
 
 
@@ -87,6 +94,9 @@ section {
 
 .menu {
     /* TODO give this section a color of #221c12 and a background of #fffdf0. give it some bottom padding so there's space below the text. */
+    color: #221c12;
+    background-color: #fffdf0;
+    padding-bottom: 700px;
 }
 
 .menu h2 {
