@@ -38,12 +38,13 @@ header .tagline h4 {
     /* TODO make the tagline italic; you'll have to work hard to override Foundation's font-style: normal on all headers! */
     font-style: italic !important;
     /* TODO add the same text-shadow */
-        text-shadow: rgba(34, 28, 18,.75);
+    text-shadow: rgba(34, 28, 18,.75);
 }
 
 header .tagline {
     /* TODO center the text */
-    background: rgba(34, 28, 18,.5); /* I added this transparent background bar for you. */
+    text-align: center;
+    /* I added this transparent background bar for you. */
     /* TODO add some padding to give it space around the text */
     /* TODO absolutely position the tagline bar at top: 35%. add a width so that it goes all the way across. */
     /* TODO when you make the slideshow work, the tagline will get hidden. why? what line of CSS do you have to write to make it appear ABOVE the slideshow? */
