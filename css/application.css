@@ -126,9 +126,10 @@ section {
     color: rgba(34, 28, 18,.75);
     border-bottom: 3px; 
     padding-bottom: 10px;
+    /* TODO give the menu section links a CSS transition so that when you hover 
+    them, the color fades in slowly */
+    text-transform: 0.3s;
 
-
-    /* TODO give the menu section links a CSS transition so that when you hover them, the color fades in slowly */
 }
 
 
