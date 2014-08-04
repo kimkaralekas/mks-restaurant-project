@@ -35,6 +35,7 @@ header h1 {
 }
 
 header .tagline h4 {
+    font-style: italic !important;
     /* TODO make the tagline italic; you'll have to work hard to override Foundation's font-style: normal on all headers! */
     /* TODO add the same text-shadow */
 }
