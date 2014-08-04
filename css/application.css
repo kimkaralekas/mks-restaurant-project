@@ -81,7 +81,9 @@ section {
 .location,
 .hours {
     /* TODO give these two divs some padding so that they line up with the map */
+    padding-top: 60px;
 }
+
 
 .hours-label { /* TODO style these with the appropriate font styles (bold/italic) */ 
     font-style: italic;
