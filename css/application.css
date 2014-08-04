@@ -133,9 +133,13 @@ section {
 }
 
 
-/* TODO on the menu section links, when hovered, make them the same color but 100% opacity instead of 75% (.75) and make the bottom border the same color. */
+/* TODO on the menu section links, when hovered, 
+make them the same color but 100% opacity instead of 75% (.75) 
+and make the bottom border the same color. */
 
-/* TODO on the ACTIVE menu section links, make them look the same as hovered ones. How do you know if they are active? */
+/* TODO on the ACTIVE menu section links, 
+make them look the same as hovered ones. 
+How do you know if they are active? */
 
 .menu-section-content {
     /* TODO give this some space below the menu links */
@@ -148,9 +152,12 @@ section {
 
 /* TODO style the menu-item-name to be bold */
 
-/* TODO style the menu-item-description to be italic and be in one line with the price. You don't need to use Foundation classes to do this, but if you want to try and see, go for it! */
+/* TODO style the menu-item-description to be italic 
+and be in one line with the price. You don't need to use Foundation classes 
+to do this, but if you want to try and see, go for it! */
 
-/* TODO style the menu-item-price to be bold, 50% opacity, in line with the description but have some space to the left of it. */
+/* TODO style the menu-item-price to be bold, 50% opacity, in line with the 
+description but have some space to the left of it. */
 
 
 .menu-item-name-no-description {
@@ -162,8 +169,14 @@ section {
 /* ---------------------------------------------- */
 
 .contact {
-    /* TODO add the dark brown background color, and the background image symbols-bottom. Change the background-position so that the bottom of it shows (where the symbols start to fade out). */
-    /* TODO add some top and bottom padding so that the content doesn't overlap the background image. Note how the padding changes the location of the background image. */
+    /* TODO add the dark brown background color, and the 
+    background image symbols-bottom. Change the background-position so 
+    that the bottom of it shows (where the symbols start to fade out). */
+
+    
+    /* TODO add some top and bottom padding so that the content doesn't 
+    overlap the background image. Note how the padding changes the location of 
+    the background image. */
 }
 
 /* TODO make the .social-links links be displayed in a row with some space between them. make them 50% opacity, and fade to 100% opacity when you hover over them. */
