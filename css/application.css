@@ -172,8 +172,8 @@ description but have some space to the left of it. */
     /* TODO add the dark brown background color, and the 
     background image symbols-bottom. Change the background-position so 
     that the bottom of it shows (where the symbols start to fade out). */
+    background-color: #170C03;
 
-    
     /* TODO add some top and bottom padding so that the content doesn't 
     overlap the background image. Note how the padding changes the location of 
     the background image. */
