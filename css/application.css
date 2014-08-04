@@ -110,7 +110,7 @@ section {
 
 .menu h2 {
     /* TODO make this font size larger than the Foundation default */
-        font-size: 80%;
+        font-size: 52px;
 }
 
 .menu h2, .menu h3, .menu h4 {
