@@ -114,10 +114,14 @@ section {
 
 .menu h2, .menu h3, .menu h4 {
     /* TODO give these headers a color of #221c12 */
+    color: #221c12;
+/* TODO center the text of the h2 and menu-section */
+    text-align: center; 
 }
 
 
-/* TODO center the text of the h2 and menu-section */
+
+
 
 .menu-section h3 a {
     /* TODO make menu section links a semi-transparent color rgba(34, 28, 18, .75). give them a 3px bottom border and give it a bit of space */
