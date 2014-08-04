@@ -119,12 +119,15 @@ section {
     text-align: center; 
 }
 
-
-
-
-
 .menu-section h3 a {
-    /* TODO make menu section links a semi-transparent color rgba(34, 28, 18, .75). give them a 3px bottom border and give it a bit of space */
+    /* TODO make menu section links a semi-transparent color rgba(34, 28, 18, .75). 
+    give them a 3px bottom border and give it a bit of space */
+    opacity: 60;
+    color: rgba(34, 28, 18,.75);
+    border-bottom: 3px; 
+    padding-bottom: 10px;
+
+
     /* TODO give the menu section links a CSS transition so that when you hover them, the color fades in slowly */
 }
 
