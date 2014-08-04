@@ -177,6 +177,7 @@ description but have some space to the left of it. */
     /* TODO add some top and bottom padding so that the content doesn't 
     overlap the background image. Note how the padding changes the location of 
     the background image. */
+    padding-top: 2px;
 }
 
 /* TODO make the .social-links links be displayed in a row with some space between them. make them 50% opacity, and fade to 100% opacity when you hover over them. */
