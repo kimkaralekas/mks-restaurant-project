@@ -24,13 +24,14 @@ h1, h2, h3, h4, h5, h6 {
 /* ---------------------------------------------- */
 
 header {
-
+    background-color: #170C03;
 }
 
 header h1 {
     /* TODO make the font size larger than Foundation's default; I uesd 4.5em */
     font-size: 4.5em;
     /* TODO add a text-shadow on the h1 using rgba(34, 28, 18,.75) */
+    text-shadow: rgba(34, 28, 18,.75);
 
 }
 
@@ -178,6 +179,10 @@ description but have some space to the left of it. */
     overlap the background image. Note how the padding changes the location of 
     the background image. */
     padding-top: 2px;
+    padding-bottom: 115px;
+
 }
 
-/* TODO make the .social-links links be displayed in a row with some space between them. make them 50% opacity, and fade to 100% opacity when you hover over them. */
+/* TODO make the .social-links links be displayed in a row with some space 
+between them. make them 50% opacity, and fade to 100% opacity when you hover 
+over them. */
