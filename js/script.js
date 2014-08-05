@@ -1,5 +1,3 @@
-
-
 $(function() {
 
     // TODO #1 Set an event listener to listen for clicks on each menu section
@@ -63,7 +61,6 @@ $(function() {
     });
 
 
-
     // TODO #2 Create a function, getMenu, to get the menu for a course
     getMenu();
 
@@ -119,5 +116,5 @@ $(function() {
 
     // TODO #4 Call getMenu with a menu of your choice and set that menu's
     // header to active so that a menu is loaded with the page by default
-    
+
 });

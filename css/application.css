@@ -106,10 +106,11 @@ section {
 /* ---------------------------------------------- */
 
 .menu {
-    /* TODO give this section a color of #221c12 and a background of #fffdf0. give it some bottom padding so there's space below the text. */
+    /* TODO give this section a color of #221c12 and a background of #fffdf0. 
+    give it some bottom padding so there's space below the text. */
     color: #221c12;
     background-color: #fffdf0;
-    padding-bottom: 700px;
+    padding-bottom: 2200px;
 }
 
 .menu h2 {
