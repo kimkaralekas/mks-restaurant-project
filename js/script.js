@@ -40,6 +40,7 @@ $(function() {
 
 
     // TODO #2 Create a function, getMenu, to get the menu for a course
+    getMenu
 
     // There are menus available for each course:
     // - http://mksrestaurantapi.herokuapp.com/menu-breakfast.json

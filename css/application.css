@@ -50,8 +50,12 @@ header .tagline {
     padding: 25px 25px 25px 25px;
     /* TODO absolutely position the tagline bar at top: 35%. add a width so that it goes all the way across. */
     top: 35%;
+    width: 100%;
+    background-color: rgba(34, 28, 18,.75);
+    z-index: 99;
+
     /* TODO when you make the slideshow work, the tagline will get hidden. why? what line of CSS do you have to write to make it appear ABOVE the slideshow? */
-    position: static;
+    position: absolute;
 }
 
 
@@ -123,7 +127,6 @@ section {
 .menu-section h3 a {
     /* TODO make menu section links a semi-transparent color rgba(34, 28, 18, .75). 
     give them a 3px bottom border and give it a bit of space */
-    opacity: 60;
     color: rgba(34, 28, 18,.75);
     border-bottom: 3px; 
     padding-bottom: 10px;
@@ -149,6 +152,7 @@ How do you know if they are active? */
 
 .menu-item {
     /* TODO give each menu item some bottom margin */
+
 }
 
 /* TODO style the menu-item-name to be bold */
@@ -159,6 +163,7 @@ to do this, but if you want to try and see, go for it! */
 
 /* TODO style the menu-item-price to be bold, 50% opacity, in line with the 
 description but have some space to the left of it. */
+
 
 
 .menu-item-name-no-description {
@@ -183,7 +188,15 @@ description but have some space to the left of it. */
 
 }
 
+.contact .row {
+    max-width: 100%
+}
+
 /* TODO make the .social-links links be displayed in a row with some space 
 between them. make them 50% opacity, and fade to 100% opacity when you hover 
 over them. */
+.social {
+    opacity: .50;
+    
+}
 
