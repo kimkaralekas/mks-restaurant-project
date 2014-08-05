@@ -5,11 +5,6 @@ $(function() {
     // TODO #1 Set an event listener to listen for clicks on each menu section
     // heading anchor
 
-menuactionbreakfast.onclick = function() {
-//run your event handler code...
-};
-
-
 
     // Note: my menu section headings look like this:
     //
@@ -24,12 +19,35 @@ menuactionbreakfast.onclick = function() {
     // I've given all of the anchors the same class so that I can easily target
     // all of them with jQuery
 
+    // we have a bunch of links
+    // they all have the class .menu-section-item
+    // when i click on one
+    // write click handler
+    // $( document ).on( 'click', '.menu-section-item', function( event ) {
+    //   // i need to know what i clicked on
+    //   // console.log($(this));
+    //   // prevent default behavior of links
+    //   event.preventDefault();
+    //   // remove from anything we didnt click but ALL menu-section-items
+    //   $('.menu-section-item').removeClass('is-active');
+    //   // and i want to add a class to it
+    //   $( this ).addClass( 'is-active' );
+    //   // var id = $( this ).attr( 'id' );
+    //   // console.log(id)
+    //   // $(this).addClass('test');
+    // });
+    // turn red
+    // you can turn something red by changing a css class
+    // so i need a class that has a red style
+    // and i need to apply it to each thing i clicked on
+
     $( document ).on( 'click', '.menu-section-item', function( event ) {
       // Prevent the default action of the event
       event.preventDefault();
 
       // Assign the id of the clicked element to a variable named id
       var id = $( this ).attr( 'id' );
+      // console.log("i clicked" + id);
 
       // Remove the class 'is-active' from all menu item headings
       $( '.menu-section-item' ).removeClass( 'is-active' );
@@ -41,10 +59,7 @@ menuactionbreakfast.onclick = function() {
       // Once you're started with TODO #2, call the getMenu function here,
       // passing id as the argument
 
-
-
-
-      $getMenu( id );
+      getMenu( id );
     });
 
 
@@ -66,6 +81,8 @@ menuactionbreakfast.onclick = function() {
     function getMenu( course ) {
       // Use `$.getJSON` to get the menu for whatever menu heading was clicked
       $.getJSON( 'http://mksrestaurantapi.herokuapp.com/menu-' + course + '.json', function( json ) {
+        // console.log(course);
+        // console.log("the course i want to get the menu for is" + course);
         populateMenu( json );
         // Once you're started with TODO #3, call the populateMenu function here
         // and pass json as the argument
@@ -102,5 +119,5 @@ menuactionbreakfast.onclick = function() {
 
     // TODO #4 Call getMenu with a menu of your choice and set that menu's
     // header to active so that a menu is loaded with the page by default
-
+    
 });

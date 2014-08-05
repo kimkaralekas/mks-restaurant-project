@@ -136,6 +136,10 @@ section {
 
 }
 
+.menu-section-item.is-active a {
+    color: red;
+}
+
 
 /* TODO on the menu section links, when hovered, 
 make them the same color but 100% opacity instead of 75% (.75) 
