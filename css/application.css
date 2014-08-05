@@ -197,6 +197,7 @@ between them. make them 50% opacity, and fade to 100% opacity when you hover
 over them. */
 .social a {
     opacity: .50;
+    padding: 5px;
 }
 
 .social a:hover {
